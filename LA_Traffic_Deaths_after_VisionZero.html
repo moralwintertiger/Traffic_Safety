@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>myplot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="7aad1f78-b900-4993-9353-f93429554de2" data-root-id="25417"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="25555">
+          {"16e3e603-4683-41ae-9595-98fd5bb26ec5":{"roots":{"references":[{"attributes":{"label":{"value":"LA traffic deaths"},"renderers":[{"id":"25455","type":"GlyphRenderer"}]},"id":"25464","type":"LegendItem"},{"attributes":{"axis_label":"Total Traffic Deaths","formatter":{"id":"25459","type":"BasicTickFormatter"},"ticker":{"id":"25434","type":"BasicTicker"}},"id":"25433","type":"LinearAxis"},{"attributes":{},"id":"25481","type":"Selection"},{"attributes":{},"id":"25424","type":"LinearScale"},{"attributes":{"dimension":1,"ticker":{"id":"25434","type":"BasicTicker"}},"id":"25437","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"lightgrey"},"left":2015,"line_color":{"value":"red"},"line_dash":[6],"line_width":{"value":2},"right":2019},"id":"25471","type":"BoxAnnotation"},{"attributes":{"source":{"id":"25451","type":"ColumnDataSource"}},"id":"25456","type":"CDSView"},{"attributes":{"callback":null,"data":{"LA":[184,157,200,201,191,183,253,268,268],"NYC":[273,249,278,299,259,234,231,214,200],"index":[6,7,8,0,1,2,3,4,5],"years":[2010,2011,2012,2013,2014,2015,2016,2017,2018]},"selected":{"id":"25479","type":"Selection"},"selection_policy":{"id":"25480","type":"UnionRenderers"}},"id":"25451","type":"ColumnDataSource"},{"attributes":{},"id":"25461","type":"BasicTickFormatter"},{"attributes":{},"id":"25482","type":"UnionRenderers"},{"attributes":{},"id":"25479","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":6},"x":{"field":"year"},"y":{"field":"LA"}},"id":"25468","type":"Circle"},{"attributes":{"data_source":{"id":"25465","type":"ColumnDataSource"},"glyph":{"id":"25467","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"25468","type":"Circle"},"selection_glyph":null,"view":{"id":"25470","type":"CDSView"}},"id":"25469","type":"GlyphRenderer"},{"attributes":{"overlay":{"id":"25462","type":"BoxAnnotation"}},"id":"25440","type":"BoxZoomTool"},{"attributes":{},"id":"25480","type":"UnionRenderers"},{"attributes":{"ticker":{"id":"25429","type":"BasicTicker"}},"id":"25432","type":"Grid"},{"attributes":{},"id":"25438","type":"PanTool"},{"attributes":{"data_source":{"id":"25451","type":"ColumnDataSource"},"glyph":{"id":"25453","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"25454","type":"Line"},"selection_glyph":null,"view":{"id":"25456","type":"CDSView"}},"id":"25455","type":"GlyphRenderer"},{"attributes":{"ticks":[2010,2011,2012,2013,2014,2015,2016,2017,2018]},"id":"25472","type":"FixedTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"25438","type":"PanTool"},{"id":"25439","type":"WheelZoomTool"},{"id":"25440","type":"BoxZoomTool"},{"id":"25441","type":"SaveTool"},{"id":"25442","type":"ResetTool"},{"id":"25443","type":"HelpTool"}]},"id":"25444","type":"Toolbar"},{"attributes":{},"id":"25442","type":"ResetTool"},{"attributes":{"callback":null},"id":"25420","type":"DataRange1d"},{"attributes":{},"id":"25434","type":"BasicTicker"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":4,"x":{"field":"years"},"y":{"field":"LA"}},"id":"25454","type":"Line"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"25462","type":"BoxAnnotation"},{"attributes":{},"id":"25459","type":"BasicTickFormatter"},{"attributes":{"source":{"id":"25465","type":"ColumnDataSource"}},"id":"25470","type":"CDSView"},{"attributes":{"items":[{"id":"25464","type":"LegendItem"}]},"id":"25463","type":"Legend"},{"attributes":{"below":[{"id":"25428","type":"LinearAxis"}],"center":[{"id":"25432","type":"Grid"},{"id":"25437","type":"Grid"},{"id":"25463","type":"Legend"},{"id":"25471","type":"BoxAnnotation"}],"left":[{"id":"25433","type":"LinearAxis"}],"plot_height":400,"plot_width":800,"renderers":[{"id":"25455","type":"GlyphRenderer"},{"id":"25469","type":"GlyphRenderer"}],"title":{"id":"25418","type":"Title"},"toolbar":{"id":"25444","type":"Toolbar"},"x_range":{"id":"25420","type":"DataRange1d"},"x_scale":{"id":"25424","type":"LinearScale"},"y_range":{"id":"25422","type":"Range1d"},"y_scale":{"id":"25426","type":"LinearScale"}},"id":"25417","subtype":"Figure","type":"Plot"},{"attributes":{"line_color":"#F2D936","line_width":4,"x":{"field":"years"},"y":{"field":"LA"}},"id":"25453","type":"Line"},{"attributes":{"axis_label":"Year","formatter":{"id":"25461","type":"BasicTickFormatter"},"ticker":{"id":"25472","type":"FixedTicker"}},"id":"25428","type":"LinearAxis"},{"attributes":{"text":"LA Traffic Deaths are Increasing"},"id":"25418","type":"Title"},{"attributes":{},"id":"25426","type":"LinearScale"},{"attributes":{},"id":"25429","type":"BasicTicker"},{"attributes":{},"id":"25443","type":"HelpTool"},{"attributes":{},"id":"25439","type":"WheelZoomTool"},{"attributes":{},"id":"25441","type":"SaveTool"},{"attributes":{"callback":null,"data":{"LA":[183,253,268,268],"LA_costs":[256001628,353925748,374909488,374909488],"NYC":[234,231,214,200],"NYC_costs":[327346344,323149596,299368024,279783200],"SF":[31,30,20,27],"SF_costs":[43366396,41967480,27978320,37770732],"index":["2015","2016","2017","2018"],"year":["2015","2016","2017","2018"]},"selected":{"id":"25481","type":"Selection"},"selection_policy":{"id":"25482","type":"UnionRenderers"}},"id":"25465","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"#F2D936"},"size":{"units":"screen","value":6},"x":{"field":"year"},"y":{"field":"LA"}},"id":"25467","type":"Circle"},{"attributes":{"callback":null,"end":350,"start":100},"id":"25422","type":"Range1d"}],"root_ids":["25417"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('25555').textContent;
+                  var render_items = [{"docid":"16e3e603-4683-41ae-9595-98fd5bb26ec5","roots":{"25417":"7aad1f78-b900-4993-9353-f93429554de2"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
